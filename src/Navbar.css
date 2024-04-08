@@ -1,0 +1,191 @@
+@media screen and (max-width: 420px) {
+    .nav-list-left {
+        display: none;
+    }
+    .nav-list-right{
+        display: none;
+    }
+    .site-icon-text{
+        padding-left: 10px;
+    }
+    #nav-btn-div{
+        display: block;
+        margin-left: auto;
+        padding-right: 10px;
+    }
+    .nav-btn{
+        border-radius: 5px;
+        background-color: white;
+        color: #212121;
+    }
+    .nav-btn:hover{
+        background-color: #212121;
+        color: white;
+    }
+    #nav-btn-menu{
+        display: block;
+    }
+}
+
+
+
+@media screen and (min-width: 421px){
+    .nav-list-left {
+        display: block;
+        margin-right: auto;
+        padding-left: 0;
+        list-style: none;
+        gap: 20px;
+        display: flex;
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    .nav-list-right{
+        display: block;
+        margin-left: auto;
+        list-style: none;
+        font-size: 14px;
+        display: flex;
+        gap: 20px;
+    }
+    .site-icon-text{
+        padding-left: 0;
+    }
+    #nav-btn-div{
+        display: none;
+    }
+    #nav-btn-none{
+        display: block;
+    }
+}
+
+.nav-menu-list li{
+    list-style: none;
+    color: black;
+    line-height: 2;
+}
+
+.nav-menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #475569;
+}
+
+.nav-items{
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+
+    align-items: center;
+}
+
+.site-icon-text{
+    font-size: 28px;
+    margin: 0;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+
+.nav-list-left li a{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: inherit;
+}
+
+.nav-list-right li a{
+    color: inherit;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.search-input{
+    min-width: 150px;
+    width: 300px;
+    background-color: #303134;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #475569;
+    outline: none;
+    transition: all 0.3s ease; 
+}
+
+.search-input:hover{
+    transform: scale(0.96);
+}
+
+.search-icon-btn{
+    padding: 0%;
+    border: 0ch;
+    margin-left: 10px;
+}
+
+
+.shadow-effect{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.shadow-effect:hover{
+    background-color: #e9eaea3b;
+    font-size: 21px;
+}
+
+/* Sidebar toggle btn */
+
+.sidebar-toggle-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.sidebar-toggle-btn i{
+    font-size: 20px;
+}
+
+.typewriter-div{
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+.typewriter-text {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+     /* The typwriter cursor */
+    white-space: nowrap;
+    font-weight: bold;
+    margin: 0;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret 2s step-end 5;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+.nav-last-col{
+    margin-right: auto;
+}
+
+.search-bar{
+    padding-right: 50px;
+}
